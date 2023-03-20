@@ -17,7 +17,15 @@
                 result[i] = int.Parse(Console.ReadLine());
             }
 
+            return result;
+        }
+          
+        static int[] SortArray(int[] resuit)
+        {
+            var result = new int[5];
+
             int temp = 0;
+
             for (int i = 0; i < result.Length; i++)
             {
                 for (int j = i + 1; j < result.Length; j++)
@@ -29,16 +37,8 @@
                         result[j] = temp;
                     }
                 }
-
             }
-
-            for (int i = 0; i < result.Length; i++)
-            {
-                Console.WriteLine(result[i]);
-            }
-
             return result;
-
         }
     }
 }
