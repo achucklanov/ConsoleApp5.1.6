@@ -20,9 +20,8 @@
             return result;
         }
           
-        static int[] SortArray(int[] resuit)
+        static int[] SortArray(int[] result)
         {
-            var result = new int[5];
 
             int temp = 0;
 
