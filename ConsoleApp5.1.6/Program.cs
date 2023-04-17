@@ -17,12 +17,6 @@
                 result[i] = int.Parse(Console.ReadLine());
             }
 
-            return result;
-        }
-          
-        static int[] SortArray(int[] result)
-        {
-
             int temp = 0;
 
             for (int i = 0; i < result.Length; i++)
@@ -37,6 +31,12 @@
                     }
                 }
             }
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                Console.WriteLine(result[i]);
+            }
+
             return result;
         }
     }
