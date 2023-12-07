@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Здравствуй, Мир!");
+            Console.WriteLine("Здравствуй, Мир! \n");
 
             GetArrayFromConsole();
         }
